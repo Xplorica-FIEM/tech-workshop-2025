@@ -1,0 +1,96 @@
+body {
+    background-color: #fff6cb;
+    padding: 10px;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.cooked {
+    color: rgb(157, 53, 15);
+    font-size: 80px;
+    border: 7px, dotted, rgb(99, 20, 20);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.very {
+    font-style: italic;
+    color: hsl(16, 100%, 66%);
+    transform: translateY(-20px);
+    text-align: center;
+}
+
+p {
+    color: oklch(0.7 0.21 33);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.youtube-button {
+    text-decoration: none;
+    color: black;
+    background-color: hsl(16, 100%, 66%);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: -1px -1px brown;
+    transition: 0.2s ease;
+}
+
+.youtube-button:hover {
+    background-color: hsl(16, 100%, 60%);
+    box-shadow: -5px -5px brown;
+}
+
+.flex-dem {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    /* gap: 10px; */
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes {
+    padding: 50px;
+    background-color: red;
+    border: 10px solid brown;
+    margin: 2px;
+}
+
+nav {
+    background: oklch(95.3% .051 180.801);
+    margin: 10px;
+    border: 1.5px solid oklch(51.1% .096 186.391);
+    padding: 15px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    font-size: 25px;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+    font-weight: 500;
+}
+
+.menu a {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.menu a:hover {
+    background: oklch(51.555% 0.09014 186.749 / 0.51);
+}
